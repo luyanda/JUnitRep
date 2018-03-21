@@ -1,6 +1,4 @@
 sudo: false
 language: java
 
-script:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-  - mvn test -B
+script: java SimpleTestSuite
