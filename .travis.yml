@@ -1,4 +1,4 @@
 sudo: false
 language: java
 
-script: java SimpleTestSuite
+script: java SimpleTest
